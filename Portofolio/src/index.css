@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --color-myBlack: #101211;
+  --color-myGreen: #10c0ba;
+  --color-myWhite: #b8baba;
+  --color-myPurple: #7c3aed;
+  --font-poppins: "Poppins", sans-serif;
+  --font-anton: "Anton", sans-serif;
+  --font-bebas-neue: "Bebas Neue", sans-serif;
+  --animate-blob: blob 2s linear infinite;
+  --animate-fade-out: fade-out 700ms linear;
+  --animate-wave: wave;
+  --animate-slide: slide 60s linear infinite;
+}
+
+@keyframes blob {
+  0% {
+    border-radius: 60% 40% 55% 45% / 55% 60% 40% 45%;
+  }
+  50% {
+    border-radius: 45% 55% 40% 60% / 60% 45% 55% 40%;
+  }
+  100% {
+    border-radius: 60% 40% 55% 45% / 55% 60% 40% 45%;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes wave {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  10% {
+    transform: translateX(0%);
+  }
+  15% {
+    transform: translateX(-100%);
+  }
+  30% {
+    transform: translateX(-100%);
+  }
+  35% {
+    transform: translateX(-200%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  65% {
+    transform: translateX(-100%);
+  }
+  80% {
+    transform: translateX(-100%);
+  }
+  85% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
