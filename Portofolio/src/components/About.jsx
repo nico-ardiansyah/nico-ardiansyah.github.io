@@ -39,6 +39,9 @@ const About = () => {
                             <div className="p-1 bg-myGreen shadow-[0px_0px_5px] shadow-myGreen rounded-md text-white hover:bg-transparent hover:ring-2 ring-white hover:text-myGreen transition-all duration-700">
                                 MongoDB
                             </div>
+                            <div className="p-1 bg-myGreen shadow-[0px_0px_5px] shadow-myGreen rounded-md text-white hover:bg-transparent hover:ring-2 ring-white hover:text-myGreen transition-all duration-700">
+                                Git
+                            </div>
                         </div>
                     </div>
                 </div>
