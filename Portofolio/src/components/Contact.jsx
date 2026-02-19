@@ -33,7 +33,7 @@ const Contact = () => {
                             <span className="text-lg">+62 895 2579 7654</span>
                         </div>
                         <div className="flex gap-3 items-center">
-                            <a href="https://t.me/@nicoardiansyahh"><FaTelegram className="w-10 h-10 text-myGreen cursor-pointer" /></a>
+                            <a href="https://t.me/nicoardiansyahh"><FaTelegram className="w-10 h-10 text-myGreen cursor-pointer" /></a>
                             <span className="text-lg">@nicoardiansyahh</span>
                         </div>
                     </div>
