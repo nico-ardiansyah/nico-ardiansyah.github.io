@@ -29,7 +29,7 @@ const Home = () => {
                     <a href="mailto:nic0.ardiansy4h@gmail.com"> <EnvelopeIcon className="w-10 h-10 text-myGreen cursor-pointer hover:text-white hover:scale-105 transition-all duration-500" /> </a>
                     <a href="https://wa.me/6289525797654"> <FaWhatsapp className="w-10 h-10 text-myGreen cursor-pointer hover:text-white hover:scale-105 transition-all duration-500" /> </a>
                     <a href="tel:+6289525797654"><DevicePhoneMobileIcon className="w-10 h-10 text-myGreen cursor-pointer hover:text-white hover:scale-105 transition-all duration-500" /></a>
-                    <a href="https://t.me/@nicoardiansyahh"><FaTelegram className="w-10 h-10 text-myGreen cursor-pointer hover:text-white hover:scale-105 transition-all duration-500" /></a>
+                    <a href="https://t.me/nicoardiansyahh"><FaTelegram className="w-10 h-10 text-myGreen cursor-pointer hover:text-white hover:scale-105 transition-all duration-500" /></a>
                 </div>
                 
             </div>
