@@ -18,23 +18,23 @@ const Contact = () => {
                     <div className="gap-8 flex w-full text-white flex-col">
                         <div className="flex gap-3 items-center">
                             <a href="https://github.com/nico-ardiansyah"><FaGithub className="w-10 h-10 text-myGreen cursor-pointer" /></a> 
-                            <span className="text-lg">https://github.com/nico-ardiansyah</span>
+                            <span className="md:text-lg text-sm">https://github.com/nico-ardiansyah</span>
                         </div>
                         <div className="flex gap-3 items-center">
                             <a href="mailto:nic0.ardiansy4h@gmail.com"><EnvelopeIcon className="w-10 h-10 text-myGreen cursor-pointer" /></a>
-                            <span className="text-lg">nic0.ardiansy4h@gmail.com</span>
+                            <span className="md:text-lg text-sm">nic0.ardiansy4h@gmail.com</span>
                         </div>
                         <div className="flex gap-3 items-center">
                             <a href="tel:+6289525797654"><DevicePhoneMobileIcon className="w-10 h-10 text-myGreen cursor-pointer" /></a>
-                            <span className="text-lg">+62 895 2579 7654</span>
+                            <span className="md:text-lg text-sm">+62 895 2579 7654</span>
                         </div>
                         <div className="flex gap-3 items-center">
                             <a href="https://wa.me/6289525797654"><FaWhatsapp className="w-10 h-10 text-myGreen cursor-pointer" /></a>
-                            <span className="text-lg">+62 895 2579 7654</span>
+                            <span className="md:text-lg text-sm">+62 895 2579 7654</span>
                         </div>
                         <div className="flex gap-3 items-center">
                             <a href="https://t.me/nicoardiansyahh"><FaTelegram className="w-10 h-10 text-myGreen cursor-pointer" /></a>
-                            <span className="text-lg">@nicoardiansyahh</span>
+                            <span className="md:text-lg text-sm">@nicoardiansyahh</span>
                         </div>
                     </div>
                 </section> 
